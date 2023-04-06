@@ -4,8 +4,8 @@ class Solution {
 
         int maxNum = 0;
         int indexNum = 0;
-        for(int i = 0; i < array.length; i++) {
-            if(array[i] > maxNum) {
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > maxNum) {
                 maxNum = array[i];
                 indexNum = i;
             }
