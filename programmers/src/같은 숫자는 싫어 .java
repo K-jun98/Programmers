@@ -6,9 +6,9 @@ public class Solution {
         List<Integer> list = new ArrayList<>();
         int X = 10;
         for (int i : arr) {
-            if (i!=X) {
+            if (i != X) {
                 list.add(i);
-                X=i;
+                X = i;
             }
         }
         return list;
